@@ -2,10 +2,6 @@ head{
     background-color:rgb(235, 29, 156)
     padding: 20px;
 }
-a{
-    color: white;
-    text-decoration-color: aliceblue;
-}
 body{
     background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
@@ -13,21 +9,33 @@ body{
     padding: 0px;
 }
 h1{
-    color: rgb(255, 2, 2);
+    color: rgb(251, 255, 2);
     text-align: center;
+    background-color: blue;
+    margin: 0px;
 }
 h2{
     color: blue;
     text-align: center;
+    background-color: yellow;
+    height: 30px;
+    margin: 0px;
+}
+h3{
+    color: yellow;
+    text-align: center;
+    background-color: green;
+    height: 30px;
+    margin:0px;
 }
 p{
     text-align: justify;
     padding: 5px 20px;
 }
 button{
-    background-color: rgb(62, 9, 255);
+    background-color: rgba(188, 13, 194, 0.171);
     border-radius: 15px;    
-    background: rgb(3, 121, 255);
+    background: rgba(120, 178, 245, 0.815);
     padding: 15px;
     padding-bottom: 30px;
     margin-left: 50px;
@@ -36,25 +44,22 @@ button{
     button-align: center;
     }
 header{
-    text-align: center;
-    background-color: rgb(255, 0, 0);
+
+    background-color: rgb(0, 153, 255);
     color: white.
     margin: 0px;
     padding: 10px 10px; 
     height: 30px;
     }
-ul{
+    ul{
         margin: 0px;
         padding: 0px;
-        list-style-type: none; 
+        list-style-type: none;
+
     }
-li{
+    li{
         display: inline-block;
-        margin: 0 10px 0 0;
-        border-radius: 3px;
-    }
-li:hover{
-        translate: english;
+        margin: 0 20px 0 0;
     }
 section{
         background-color: rgb(255, 255, 255);
@@ -62,23 +67,16 @@ section{
         padding: 10px 20px;
         display:flex;
         flex-direction: row;
+        
     }
 div{
         background-color: rgb(3, 248, 187);
         margin: auto;
         width: 30%;
-        height: 300px;
-        text-align: center;
 
     }
 footer{
-        text-align: right;
         background-color:rgb(24, 24, 236);
         padding: 10px 10px;
         height: 30px;
-        position: fixed;
-        left:0;
-        bottom:0;
-        width: 100%
-        
     }
