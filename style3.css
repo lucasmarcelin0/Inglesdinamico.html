@@ -64,12 +64,8 @@ section{
         flex-direction: row;
     }
 div{
-        background-color: rgb(3, 248, 187);
-        margin: auto;
-        width: 30%;
-        height: 300px;
-        text-align: center;
-    }
+     
+}
 footer{
         text-align: right;
         background-color:rgb(24, 24, 236);
