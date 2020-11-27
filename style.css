@@ -45,10 +45,10 @@ footer{
         background-color:rgb(24, 24, 236);
         padding: 10px 10px;
         height: 10px;
-        position: fixed;
         left:0;
         bottom:0;
         width: 100%
+        margin: 10px; 0px; 0px; 0px;
     }
 
 col{
